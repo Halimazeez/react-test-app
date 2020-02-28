@@ -1,5 +1,21 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.file {
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+}
+
+#myId {
+  height: 200px;
+  width: 200px;
+  background-color: grey;
 }
 
 .App-logo {
