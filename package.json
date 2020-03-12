@@ -2,7 +2,12 @@
   "name": "test-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
+    "@capacitor/cli": "^1.5.1",
+    "@capacitor/core": "^1.5.1",
+    "@capacitor/ios": "^1.5.1",
+    "@signaturelnd/propel-capacitor-plugin": "0.0.7",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",

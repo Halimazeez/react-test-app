@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
 
-import MyDropzone from "./MyDropzone";
-import DropzoneTest from "./Dropzone";
+import Drivers from "./Drivers/index";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <h1>dropzone</h1>
-        <DropzoneTest />
+        {/* <h1>dropzone</h1> */}
+        {/* <DropzoneTest /> */}
         {/* <MyDropzone /> */}
+        <Drivers />
       </div>
     </div>
   );
