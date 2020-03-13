@@ -2,7 +2,7 @@
 // import Drivers from "drivers";
 // import drivers from "../lms-drivers/Drivers";
 
-import driverManager from "../lms-drivers/index";
+import driverManager from "propel-drivers";
 
 import { Plugins } from "@capacitor/core";
 const { Device } = Plugins;
